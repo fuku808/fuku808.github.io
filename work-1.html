@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='Fuku808 portfolio'>
+  <meta property='og:url' content='https://fuku808.github.io'>
+  <meta property='og:description' content='Fuku808 portfolio'>
+  <meta property='og:image' content='img/ogp.png'>
+  <meta name='description' content='Fuku808 portfolio' />
+  <title>Fuku808's portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel="canonical" href="https://fuku808.github.io" />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="header-inner">
+        <h1 class="header-logo">
+          <a href="index.html">Fuku808's portfolio</a>
+        </h1>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item"><a href="index.html#skill">SKILL</a></li>
+            <li class="header-nav-item"><a href="index.html#work">WORK</a></li>
+            <!-- <li class="header-nav-item"><a href="index.html#contact">CONTACT</a></li> -->
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <article class="article">
+        <div class="article-inner">
+          <h2 class="article-title">Work log</h2>
+          <p class="article-img">
+            <img src="img/work-1/main.jpg" alt="">
+          </p>
+          <div class="article-body">
+            <p>
+              This is the sample project to show my skills.<br>
+                Users can do clock-in/out and entry work logs. Users who have a manager role can oversee members' entries.<br>
+                Using skills: PHP/Laravel/MySQL/Apache/Tailwind CSS/JQuery
+            </p>
+            <h3 class="article-info-title">Usages</h3>
+            <p>Regitered users can entry clocked-in/out for their jobs and entry their work logs.<br>
+              Users who have a manager role can oversee members' entries.<br>
+              Users who have a system admin role can manage users' accounts.
+              <table>
+                <tr>
+                  <th>Role/Function</th>
+                  <td>Clock-in/out entry</td>
+                  <td>Work log entry</td>
+                  <td>View own-entry reports</td>
+                  <td>Edit users' clock-in/out entries</td>
+                  <td>View users' clock-in/out reports</td>
+                  <td>View users' work log reports</td>
+                  <td>Manage users' accounts</td>
+                </tr>
+                <tr>
+                  <td>Member</td>
+                  <td>o</td>
+                  <td>o</td>
+                  <td>o</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Manager</td>
+                  <td >o</td>
+                  <td>o</td>
+                  <td>o</td>
+                  <td>o</td>
+                  <td>o</td>
+                  <td>o</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>System admin</td>
+                  <td>o</td>
+                  <td>o</td>
+                  <td>o</td>
+                  <td>o</td>
+                  <td>o</td>
+                  <td>o</td>
+                  <td>o</td>
+                </tr>
+              </table>
+            </p>
+            <h3 class="article-info-title">Entity Relationship Diagram</h3>
+            <p><img src="img/work-1/tables.png" alt="">
+            </p>
+            <h3 class="article-info-title">Demo site</h3>
+            <p>To check the demo site, please use the following demo accounts.<br>
+            [Member role] Username: member01 Pass: A2bzabEX<br>
+            [Manager role] Username: manager01 Pass: Q5dbpyRz<br>
+            [System admin role] Username: systemadmin01 Pass: qUBmkMU2<br>
+            <font color="red">Functinon of editing the user master is currently disabled for the demo.</font>
+            </p>
+            <a class="button1" href="http://fuku808.ddns.net" target="_blank" rel="noopener">View demo</a>
+            <a class="button1" href="https://github.com/fuku808/worklog" target="_blank" rel="noopener">View codes</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;FUKU808</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
